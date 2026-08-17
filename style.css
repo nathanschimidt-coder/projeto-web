@@ -1,0 +1,83 @@
+/* Paleta suave com fundo claro e texto escuro */
+
+:root {
+
+--cor-fundo: #ff0404;
+
+--cor-cabecalho: #690808;
+
+--cor-texto: #333;
+
+--cor-rodape: #da6f05;
+
+}
+
+body {
+
+margin: 0;
+
+font-family: 'Segoe UI', sans-serif;
+
+background-color:
+
+var(--cor-fundo);
+
+color: var(--cor-texto);
+
+}
+
+/* Estiliza o cabeçalho */
+
+header {background-color:
+
+var(--cor-cabecalho);
+
+}
+
+padding: 10px;
+
+text-align: center;
+
+header img {
+
+}
+
+max-width: 100%;
+
+height: auto;
+
+border-radius: 10px;
+
+/* Área principal do conteúdo */
+
+main {
+
+}
+
+padding: 20px;
+
+text-align: justify;
+
+main h1 {
+
+color: var(--cor-cabecalho);
+
+}
+
+/* Rodapé com assinatura */
+
+footer {
+
+background-color:
+
+var(--cor-rodape);
+
+color: #681b1b;
+
+text-align: center;
+
+padding: 15px;
+
+font-style: italic;
+
+}
